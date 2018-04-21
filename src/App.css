@@ -68,6 +68,26 @@ h2 {
 	clip-path: polygon(0 21%, 100% 3%, 100% 69%, 0 87%);
 }
 
+/* Section B*/
+
+#section-b h2 {
+	display: flex;
+	justify-content: center;
+}
+.SectionB {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.SectionB .cards {
+	background: var(--light-color);
+	text-align: center;
+	padding: 1.5rem 2rem;
+	box-shadow: var(--shadow);
+	width: 25%;
+}
+
 
 
 
