@@ -1,5 +1,5 @@
 @import '~antd/dist/antd.css';
-@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto|Black+Han+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto|Black+Han+Sans|Source+Sans+Pro');
 
 /** Global Variable **/
 :root {
@@ -7,7 +7,7 @@
 	--darker-color: #303030;
 	--light-color: #ffffff;
 	--title: 'Black Han Sans';
-	--shadow: 0 1px 5px rgba(104,104,104, 0.8);
+	--shadow: 1px 1px 8px -2px rgba(0,0,0,.2);
 }
 
 .App {
@@ -15,7 +15,7 @@
 	padding: 0;
 	width: 100%;
 	box-sizing: border-box;
-	background: #dedede;
+	background: #f7f9fa;
 }
 
 h2 {
@@ -80,16 +80,34 @@ h2 {
 	justify-content: space-evenly;
 }
 
-.SectionB .cards {
+.SectionB .card {
 	background: var(--light-color);
-	text-align: center;
-	padding: 1.5rem 2rem;
 	box-shadow: var(--shadow);
-	width: 25%;
+	width: 30%;
+	border-radius: 4px;
 }
 
+.SectionB img {
+	height: 150px;
+	display: block;
+	margin: auto;
+	padding: 6px 0;
+}
+.SectionB .imgResize {
+	padding: 0;
+	height: 150px;
+	width: 150px;
+	display: block;
+	margin: auto;
+}
+.SectionB .card-container {
+	text-align: center;
+	padding: 1.5rem 2rem;
+}
 
-
+.SectionB p{
+	font-family: 'Source Sans Pro';
+}
 
 
 
@@ -115,6 +133,12 @@ h2 {
 		width: 100%;
 		-webkit-clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
 		clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
+	}
+	.SectionB {
+		flex-direction: column;
+	}
+	.SectionB .card {
+		width: 100%;
 	}
 }
 
