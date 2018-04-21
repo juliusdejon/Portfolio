@@ -1,8 +1,112 @@
 @import '~antd/dist/antd.css';
 @import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto|Black+Han+Sans');
 
+/** Global Variable **/
+:root {
+	--dark-color: #424242;
+	--darker-color: #303030;
+	--light-color: #ffffff;
+	--title: 'Black Han Sans';
+	--shadow: 0 1px 5px rgba(104,104,104, 0.8);
+}
+
 .App {
 	margin: 0;
 	padding: 0;
-	width:100%;
+	width: 100%;
+	box-sizing: border-box;
+	background: #dedede;
 }
+
+h2 {
+	font-family: var(--title);
+	font-size: 1.6rem;
+	font-weight: 100;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: var(--dark-color);
+}
+/** Showcase Landing Page **/
+.showcase-background {
+	object-fit: cover;
+	height: 450px;
+	width:100%;
+	position: relative;
+}
+
+.showcase-container {
+	position:absolute;
+	top: 20%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	color: var(--light-color);
+}
+
+.showcase-container h1 {
+	color: var(--light-color);
+}
+
+/** Section A **/
+
+.SectionA {
+	margin: 10px auto;
+	background: var(--light-color);
+	box-shadow: var(--shadow);
+	display: grid;
+	grid-gap: 2rem;
+	grid-template-columns: repeat(2, 1fr);
+	padding: 3rem;
+}
+
+.SectionA img-container {
+	display: flex;
+}
+.SectionA img {
+	width: 100%;
+	-webkit-clip-path: polygon(0 21%, 100% 3%, 100% 69%, 0 87%);
+	clip-path: polygon(0 21%, 100% 3%, 100% 69%, 0 87%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+@media(max-width: 768px) {
+	.SectionA {
+		grid-template-columns: 1fr;
+	}
+	.SectionA img {
+		width: 100%;
+		-webkit-clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
+		clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
+	}
+}
+
+@media(max-width: 500px) {
+	.SectionA {
+		display: flex;
+		flex-direction: column-reverse;
+		padding: 1rem;
+		margin: 0.50rem;
+	}
+	.SectionA h2 {
+		margin: 2rem 0 0 0;
+	}
+}
+
