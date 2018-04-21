@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BackTop, Icon } from 'antd';
+import { BackTop } from 'antd';
 import styled from 'styled-components';
 const StyledDiv =  styled.div`
   position: relative;

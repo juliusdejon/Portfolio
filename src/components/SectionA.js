@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import {Card, Icon, Avatar, Row, Col} from 'antd';
 import prime from '../images/primeblue.png';
-const { Meta } = Card;
 class SectionA extends Component {
   render() {
     return (
@@ -13,7 +11,7 @@ class SectionA extends Component {
           <p>&emsp;I spend time learning new things via reading documentations and watching tutorials.  Right now I'm looking to be part of company that has vision aligned with my goal.</p>
         </div>
         <div className="img-container">
-        <img src={prime} alt="Photo" />
+        <img src={prime} alt="Working as Intern" />
         </div>
     </section>
     );
