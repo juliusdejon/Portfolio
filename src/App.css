@@ -169,9 +169,22 @@ h2 {
 
 
 
+/*Section D*/
 
+.SectionD {
+	height: 500px;
+	font-size: 1rem;
+}
 
-
+.SectionD {
+	margin: 10px auto;
+	background: var(--light-color);
+	box-shadow: var(--shadow);
+	display: grid;
+	grid-gap: 2rem;
+	grid-template-columns: repeat(2, 1fr);
+	padding: 3rem;
+}
 
 
 /* Media Queries */
@@ -190,6 +203,9 @@ h2 {
 	.SectionB .card {
 		width: 100%;
 	}
+	.SectionD {
+		grid-template-columns: 1fr;
+	}
 }
 
 @media(max-width: 500px) {
@@ -201,6 +217,11 @@ h2 {
 	}
 	.SectionA h2 {
 		margin: 2rem 0 0 0;
+	}
+	.SectionD {
+		padding: 1.5rem;
+		margin: auto;
+		word-break: initial;
 	}
 }
 

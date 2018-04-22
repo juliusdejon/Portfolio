@@ -3,7 +3,7 @@ import prime from '../images/primeblue.png';
 class SectionA extends Component {
   render() {
     return (
-    <section id="section-a" className="SectionA">
+    <section id="AboutMe" className="SectionA">
         <div>
           <h2> About Me </h2>
           <p>&emsp;I'm a fresh graduate at the University of the East Majoring Information Technology. In school I learned some programming languages such as C, C++, C#, Java, .NET, HTML, CSS, Python, and PHP. I also learned frameworks such as Bootstrap and JQuery to develop a Web-based system using PHP.</p>

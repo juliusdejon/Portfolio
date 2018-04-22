@@ -2,9 +2,16 @@ import React, { Component } from 'react';
 import csta from '../images/csta.png';
 import piggyback from '../images/piggyback-logo.png';
 import mnemosyne from '../images/mnemosyne.png';
-import {Button} from 'antd';
+import {Button, notification, Icon} from 'antd';
 class SectionB extends Component {
   render() {
+    const openNotification = () => {
+      notification.open({
+        message: 'Something went wrong.',
+        description: 'Kindly visit http://github.com/juliusdejon or Contact me for this matter.',
+        icon: <Icon type="warning" style={{ color: '#303030' }} />,
+      });
+    };
     return (
     <div id="section-b">
       <h2>Projects</h2>
@@ -14,7 +21,7 @@ class SectionB extends Component {
         <div className="card-container">
         <h3> CSTA Web-Based Library System </h3>
         <p>Master</p>
-        <Button type="primary">Visit</Button>
+        <Button type="primary" onClick={openNotification}>Visit</Button>
         </div>
       </div>
       <div className="card">
@@ -22,7 +29,7 @@ class SectionB extends Component {
         <div className="card-container">
         <h3> Piggyback </h3>
         <p>Contributor</p>
-        <Button type="primary">Visit</Button>
+        <Button type="primary" href="http://piggyback.primephilippines.com" target="_blank">Visit</Button>
         </div>
         </div>
       <div className="card">
@@ -30,7 +37,7 @@ class SectionB extends Component {
       <div className="card-container">
         <h3> Mnemosyne </h3>
         <p>Contributor</p>
-        <Button type="primary">Visit</Button>
+        <Button type="primary" onClick={openNotification}>Visit</Button>
         </div>
         </div>
     </section>

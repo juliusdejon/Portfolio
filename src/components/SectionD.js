@@ -3,14 +3,25 @@ import {Icon} from 'antd';
 class SectionD extends Component {
   render() {
     return (
-      <div id="SectionD" className="grid">
+      <section className="SectionD">
+      <div>
+        <h2>Let's talk</h2>
+        <p>
+        Wanna get in touch or talk about a project?
+        Feel free to contact me via email at 
+        juliusdejon@gmail.com
+        </p>
+      </div>
+      <div>
         <h2>Connect With ME!</h2>
       <Icon type="github" className="icon"/> <a href="https://github.com/juliusdejon" alt="github">https://github.com/juliusdejon</a> <br />
       <Icon type="gitlab" className="icon"/> <a href="https://gitlab.com/juliusdejon" alt="gitlab">https://gitlab.com/juliusdejon</a> <br />
       <Icon type="linkedin" className="icon" /> <a href="https://www.linkedin.com/in/julius-dejon-954882157/" alt="linkedin"> https://www.linkedin.com/in/julius-dejon-954882157/</a> <br />
       <Icon type="mail" className="icon"/> juliusdejon@gmail.com <br />
-      <Icon type="phone"  className="icon"/> +63 9951808520 
-      </div>    
+      <Icon type="phone"  className="icon"/> +63 9951808520 <br />
+      <Icon type="twitter" className="icon" /> <a href="https://twitter.com/dejonjulius" alt="twitter"> https://twitter.com/dejonjulius</a>
+      </div>
+      </section>
     );
   }
 }
