@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Particles from 'react-particles-js';
-import bg2 from './images/bg2.png';
+import bg2 from '../images/bg2.png';
 
 
 class Particle extends Component {
@@ -13,19 +13,16 @@ class Particle extends Component {
                     shadow: {
                       enable: true,
                       color: "#3CA9D1",
-                      blur: 5
+                      blur: 10
                     }
                   }
                 }
               }}
               style={{
                 backgroundImage: `url(${bg2})`,
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                backgroundPosition: 'center 0',
                 position: 'relative',
-                WebkitClipPath: 'polygon(0 15%, 100% 0, 100% 100%, 0 86%)',
-                clipPath: 'polygon(0 15%, 100% 0, 100% 100%, 0 86%)'
+	              height: '450px',
+	              width: '100%'
               }}
             >
             </Particles>

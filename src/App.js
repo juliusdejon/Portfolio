@@ -13,6 +13,8 @@ class App extends Component {
     <ShowCase title="Julius Dejon" />
     <SectionA />
     <SectionB />
+    <SectionC />
+    <SectionD />
     <Footer />
     </div>
     );
