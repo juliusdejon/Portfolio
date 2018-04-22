@@ -15,9 +15,10 @@ class ShowCase extends Component {
     <div>
       <div className="showcase-container">
         <h1>Hello, I'm {title}</h1>
+        <p> Thank you for checking this page out!</p>
         <p>this portfolio is powered by React <img src={icon} alt="react-icon" style={{width: '3rem'}}/> and antd  <img src={iconAntd} alt="antd-icon" style={{width: '2rem'}}/></p>
         <br /><br /><br /> <br />
-          <Button ghost size="large"><a href="#section-a">Get to Know</a></Button> 
+          <Button ghost size="large"><a href="#section-a">Read More!</a></Button> 
       </div>
     </div>
     </header>
