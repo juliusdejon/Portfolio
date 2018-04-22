@@ -113,6 +113,7 @@ h2 {
 	font-family: 'Source Sans Pro';
 }
 
+/*Section C */
 
 .SectionC {
 	position: relative;
@@ -129,7 +130,10 @@ h2 {
 	display: block;
     margin-bottom: 7px;
     text-align: center;
-	font-size: .75em;
+	font-size: 1rem;
+	font-weight: 700;
+	letter-spacing: .5px;
+	text-transform: uppercase;
 	color: var(--dark-color);
 }
 .SectionC .panel {
@@ -148,9 +152,7 @@ h2 {
     box-sizing: border-box;
     z-index: 100;
 }
-.SectionC h3 {
-	font-weight: 700;
-}
+
 
 .SectionC a {
 	color: var(--light-color);
