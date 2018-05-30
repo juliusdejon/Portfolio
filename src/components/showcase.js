@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Button, Tag} from 'antd';
-import bg from '../images/bg.png';
+import bg from '../images/bg.jpg';
 import icon from '../images/react-icon.png';
 import iconAntd from '../images/ant-icon.png';
 class ShowCase extends Component {

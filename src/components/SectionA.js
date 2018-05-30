@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import prime from '../images/primeblue.png';
+import prime from '../images/primeblue.jpg';
 class SectionA extends Component {
   render() {
     return (
-    <section id="AboutMe" className="SectionA">
+      <section id="AboutMe" className="SectionA">
         <div>
           <h2> About Me </h2>
           <p>&emsp;I'm a fresh graduate at the University of the East Majoring Information Technology. In school I learned some programming languages such as C, C++, C#, Java, .NET, HTML, CSS, Python, and PHP. I also learned frameworks such as Bootstrap and JQuery to develop a Web-based system using PHP.</p>
@@ -11,9 +11,9 @@ class SectionA extends Component {
           <p>&emsp;I spend time learning new things via reading documentations and watching tutorials.  Right now I'm looking to be part of company that has vision aligned with my goal.</p>
         </div>
         <div className="img-container">
-        <img src={prime} alt="Working as Intern" />
+          <img src={prime} alt="Working as Intern" />
         </div>
-    </section>
+      </section>
     );
   }
 }
