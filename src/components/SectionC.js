@@ -7,7 +7,7 @@ class SectionC extends Component {
     <section id="section-c" className="SectionC">
     <img src={dataWarehouse} alt="data-warehouse" />
     <div className="panel">
-  <span class="r-version">Curriculum Vitae</span>
+  <span className="r-version">Curriculum Vitae</span>
 	<p>Download a copy of my CV in PDF format!</p>
   <div><Icon type="file-pdf" style={{ fontSize: '2rem', display: 'block', justifyContent:'center', color: 'var(--dark-color)', padding: '5px 0'}}/></div>
     <Button type="primary" icon="download" size="large">&nbsp;
