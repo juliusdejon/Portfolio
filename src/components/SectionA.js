@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import prime from '../images/primeblue.jpg';
+import prime from '../images/primeblue.png';
 class SectionA extends Component {
   render() {
     return (
