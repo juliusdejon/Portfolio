@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import csta from '../images/csta.png';
 import piggyback from '../images/piggyback-logo.png';
-import mnemosyne from '../images/mnemosyne.png';
+import petify from '../images/petify.png';
 import { Button, notification, Icon } from 'antd';
 class SectionB extends Component {
   render() {
@@ -33,11 +33,11 @@ class SectionB extends Component {
             </div>
           </div>
           <div className="card">
-            <img src={mnemosyne} className="imgResize" alt="logo" />
+            <img src={petify} className="imgResize" alt="logo" style={{ borderRadius: '50%'}}/>
             <div className="card-container">
-              <h3> Mnemosyne </h3>
-              <p>Contributor</p>
-              <Button type="primary" onClick={openNotification}>Visit</Button>
+              <h3> Petify </h3>
+              <p>Master</p>
+              <Button type="primary" href="https://petified.herokuapp.com" target="_blank">Visit</Button>
             </div>
           </div>
         </section>

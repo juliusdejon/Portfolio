@@ -18,7 +18,7 @@ class SectionD extends Component {
           <Icon type="gitlab" className="icon" /> <a href="https://gitlab.com/juliusdejon" alt="gitlab" target="_blank">https://gitlab.com/juliusdejon</a> <br />
           <Icon type="linkedin" className="icon" /> <a href="https://www.linkedin.com/in/julius-dejon-954882157/" alt="linkedin" target="_blank"> https://www.linkedin.com/in/julius-dejon-954882157/</a> <br />
           <Icon type="mail" className="icon" /> juliusdejon@gmail.com <br />
-          <Icon type="phone" className="icon" /> +63 9951808520 <br />
+          <Icon type="phone" className="icon" /> +63 9568634321 <br />
           <Icon type="twitter" className="icon" /> <a href="https://twitter.com/dejonjulius" alt="twitter" target="_blank"> https://twitter.com/dejonjulius</a>
         </div>
       </section>
