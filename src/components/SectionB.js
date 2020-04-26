@@ -4,7 +4,15 @@ import valogo from "../images/valogo.png";
 import piggyback from "../images/piggyback-logo.png";
 import petify from "../images/petify.png";
 import shore from "../images/shore.png";
-import { Button, notification, Icon, Modal } from "antd";
+import csta1 from "../images/csta/1.png";
+import csta2 from "../images/csta/2.png";
+import csta3 from "../images/csta/3.png";
+import csta4 from "../images/csta/4.png";
+import csta5 from "../images/csta/5.png";
+import csta6 from "../images/csta/6.png";
+import csta7 from "../images/csta/7.png";
+
+import { Button, Carousel, Modal } from "antd";
 
 const SectionB = () => {
   const [modal, setModal] = useState(false);
@@ -81,14 +89,22 @@ const SectionB = () => {
           </div>
         </div>
         <Modal
-          title="Basic Modal"
+          title="User Manual"
           visible={modal}
           footer={false}
           onCancel={() => setModal(false)}
         >
-          <p>Some contents...</p>
-          <p>Some contents...</p>
-          <p>Some contents...</p>
+          <div>
+            <Carousel autoplay autoplaySpeed={1000}>
+              <img src={csta1} alt="manual" />
+              <img src={csta2} alt="manual" />
+              <img src={csta3} alt="manual" />
+              <img src={csta4} alt="manual" />
+              <img src={csta5} alt="manual" />
+              <img src={csta6} alt="manual" />
+              <img src={csta7} alt="manual" />
+            </Carousel>
+          </div>
         </Modal>
       </section>
     </div>
