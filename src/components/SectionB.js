@@ -12,7 +12,7 @@ import csta5 from "../images/csta/5.png";
 import csta6 from "../images/csta/6.png";
 import csta7 from "../images/csta/7.png";
 
-import { Button, Carousel, Modal } from "antd";
+import { Button, Modal } from "antd";
 
 const SectionB = () => {
   const [modal, setModal] = useState(false);
@@ -92,18 +92,17 @@ const SectionB = () => {
           title="User Manual"
           visible={modal}
           footer={false}
+          bodyStyle={{ height: 400, overflowY: "scroll" }}
           onCancel={() => setModal(false)}
         >
-          <div>
-            <Carousel autoplay autoplaySpeed={1000}>
-              <img src={csta1} alt="manual" />
-              <img src={csta2} alt="manual" />
-              <img src={csta3} alt="manual" />
-              <img src={csta4} alt="manual" />
-              <img src={csta5} alt="manual" />
-              <img src={csta6} alt="manual" />
-              <img src={csta7} alt="manual" />
-            </Carousel>
+          <div style={{ background: "red", color: "red" }}>
+            <img src={csta1} width="100%" alt="manual" />
+            <img src={csta2} width="100%" alt="manual" />
+            <img src={csta3} width="100%" alt="manual" />
+            <img src={csta4} width="100%" alt="manual" />
+            <img src={csta5} width="100%" alt="manual" />
+            <img src={csta6} width="100%" alt="manual" />
+            <img src={csta7} width="100%" alt="manual" />
           </div>
         </Modal>
       </section>
