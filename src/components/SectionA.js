@@ -37,8 +37,8 @@ class SectionA extends Component {
             Jest, react-testing-library, mocha, chai, cypress.
           </p>
           <p>
-            I'm also a certified <b>AWS cloud practioner</b> and aiming the
-            solutions architect path.
+            I'm also a certified <b>AWS cloud practioner</b> and aiming to be a
+            solutions architect.
           </p>
           <p>
             I spend time learning new things via reading documentations and
