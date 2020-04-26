@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import dataWarehouse from "../images/bg2.png";
+import dataWarehouse from "../images/bg2.jpg";
 import { Button, Icon } from "antd";
 class SectionC extends Component {
   render() {
@@ -17,7 +17,7 @@ class SectionC extends Component {
                 display: "block",
                 justifyContent: "center",
                 color: "var(--dark-color)",
-                padding: "5px 0"
+                padding: "5px 0",
               }}
             />
           </div>
